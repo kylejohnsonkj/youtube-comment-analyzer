@@ -1,5 +1,7 @@
 # YouTube Comment Analyzer 
 
+<img src="screenshot.png" width="400">
+
 YouTube offers no easy way to analyze your own comments, so I made this. After having an account and leaving comments for nearly a decade, I was curious to see some of my oldest comments and if any of them blew up.
 
 Google allows you to download your YouTube comments, but that only gets you halfway there. Unfortunately it's given to you as an HTML file, with only links to your comments, the date posted, and the text. No like count. >:(
@@ -26,4 +28,4 @@ Customize the resulting CSV in analyzeData(). You can sort by and display differ
 The comments will not be re-fetched once the master data.json has been been generated. If wanting to re-run the process, delete the generated data.json and data folder.
 
 Enjoy! And in case you were curious, my top comment was 2791 likes on me calling this dog derpy.
-![he's so derpy][derp.png]
+<img src="derp.png" width="200">
