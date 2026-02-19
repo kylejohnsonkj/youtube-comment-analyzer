@@ -37,11 +37,11 @@ if os.path.exists('data.json'):
 	analyzeData()
 	quit()
 
-#1 - parse my-comments.html for comment ids
-path = 'Takeout/YouTube and YouTube Music/my-comments/'
+#1 - parse comments.html for comment ids
+path = 'Takeout/YouTube and YouTube Music/comments/'
 commentIds = []
 
-with open(path + 'my-comments.html') as f:
+with open(path + 'comments.html') as f:
 	html = f.read()
 	# use regex to capture comment id in self-posted top level comments
 	for match in re.finditer('You added a.*?&amp;lc=((?!\.).*?)\">comment', html):
